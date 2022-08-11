@@ -1,0 +1,14 @@
+package day02;
+
+public class 자동차user {
+	public static void main(String[] args) {
+		자동차 c3 = new 스포츠카();
+		// 부모는 자식을 가리킬 수 있다.
+		
+		//불가능 -> 버스 b = new 자동차();
+		/** 
+		 * 형변환
+		 * instanceof 
+		 */
+	}
+}

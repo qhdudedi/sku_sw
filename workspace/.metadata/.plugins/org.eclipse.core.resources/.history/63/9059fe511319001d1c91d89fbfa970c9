@@ -1,0 +1,10 @@
+package day02;
+
+public class 버스 {
+	public void 뒷문열다() {
+		System.out.println("버스가 뒷문을 엽니다.");
+	}
+	public void 안내방송하다() {
+		System.out.print("버스에서 안내방송을 합니다.");
+	}
+}

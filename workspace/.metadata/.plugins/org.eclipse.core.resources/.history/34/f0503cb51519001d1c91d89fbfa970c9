@@ -1,0 +1,15 @@
+package project;
+import java.util.Random;
+
+public class 로또머신 extends 로또볼 {
+	int ball_num;
+	int ix;
+	public void 번호섞기() {
+		Random rd = new Random();
+		
+		while(ball[ix] == 0) {
+			ix = rd.nextInt(45);
+		}
+		//if( ball[ix] ==  )
+	}
+}
